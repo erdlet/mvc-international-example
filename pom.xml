@@ -5,6 +5,20 @@
   <artifactId>mvc-language-examples</artifactId>
   <version>0.0.1</version>
   <packaging>war</packaging>
+
+  <repositories>
+    <repository>
+      <id>sonatype-oss-snapshots</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
   <dependencies>
 
     <dependency>
