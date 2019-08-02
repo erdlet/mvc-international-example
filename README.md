@@ -1,4 +1,4 @@
-# Example for Internationalization in MVC API with Eclipse Krazo
+# Example for Internationalization with MVC API 1.0 and Eclipse Krazo
 This example shows how a possible approach on internationalization may look like when
 using the MVC API and Eclipse Krazo. 
 
