@@ -1,9 +1,8 @@
-# Example for Internationalization with MVC API 1.0 and Eclipse Krazo
-This example shows how a possible approach on internationalization may look like when
-using the MVC API and Eclipse Krazo. 
+# MVC custom LocaleResolver
+This example shows how to implement a custom `LocaleResolver` to read the `Locale` from a query param.
 
 ## Build
-mvn clean package && docker build -t de.erdlet.mvc/mvc-language-examples .
+mvn clean package && docker build -t de.erdlet.mvc/custom-locale-resolver .
 
 ## RUN
-docker rm -f mvc-language-examples || true && docker run -d -p 8080:8080 -p 4848:4848 --name mvc-language-examples de.erdlet.mvc/mvc-language-examples 
+docker rm -f custom-locale-resolver || true && docker run -d -p 8080:8080 -p 4848:4848 --name custom-locale-resolver de.erdlet.mvc/custom-locale-resolver 

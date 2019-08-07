@@ -1,9 +1,9 @@
-# Example for Internationalization with MVC API 1.0 and Eclipse Krazo
-This example shows how a possible approach on internationalization may look like when
-using the MVC API and Eclipse Krazo. 
+# Example for messages in multiple languages
+This example shows how to use multi-language translations in an MVC application using
+the default `LocaleResolver` implementation.
 
 ## Build
-mvn clean package && docker build -t de.erdlet.mvc/mvc-language-examples .
+mvn clean package && docker build -t de.erdlet.mvc/multilang-messages .
 
 ## RUN
-docker rm -f mvc-language-examples || true && docker run -d -p 8080:8080 -p 4848:4848 --name mvc-language-examples de.erdlet.mvc/mvc-language-examples 
+docker rm -f multilang-messages || true && docker run -d -p 8080:8080 -p 4848:4848 --name multilang-messages de.erdlet.mvc/multilang-messages
